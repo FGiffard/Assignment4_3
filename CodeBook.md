@@ -1,10 +1,6 @@
-Coursera Getting and Cleaning Data course project
+Francis Giffard: Getting and Cleaning Data course project, the data set is located in the tidy_data.txt file of this repository.
 
-The data set is located in the tidy_data.txt file of this repository.
-
-The structure of the data set is described in the Data section, its variables are listed in the Variables section, and the transformations that were carried out to obtain the data set based on the source data are presented in the Transformations section.
-
-Data Section
+The structure of the data set is described in the following sections:
 
 The tidy_data.txt data file is a text file, containing space-separated values.
 
@@ -16,11 +12,11 @@ Each row contains, for a given subject and activity, 79 averaged signal measurem
 
 Identifiers
 
-subject section
+Subject section
 
 Subject identifier, integer, ranges from 1 to 30.
 
-activity Section
+Activity Section
 
 Activity identifier, string with 6 possible values:
 
@@ -32,16 +28,11 @@ STANDING: subject was standing
 LAYING: subject was laying
 Average of measurements
 
-Prior to normalisation, acceleration measurements (variables containing Accelerometer) were made in g's (9.81 m.s⁻²) and gyroscope measurements (variables containing Gyroscope) were made in radians per second (rad.s⁻¹).
-
-Magnitudes of three-dimensional signals (variables containing Magnitude) were calculated using the Euclidean norm.
-
 The measurements are classified as follows:
 
-Time-domain signals (variables prefixed by timeDomain), resulting from the capture of accelerometer and gyroscope raw signals.
+Time-domain data (variables prefixed by timeDomain), resulting from the capture of accelerometer and gyroscope raw data.
 
-Frequency-domain signals (variables prefixed by frequencyDomain), resulting from the application of a Fast Fourier Transform (FFT) to some of the time-domain signals.
-
+Frequency-domain data (variables prefixed by frequencyDomain)
 Time-domain 
 
 Average time-domain body acceleration in the X, Y and Z directions:
